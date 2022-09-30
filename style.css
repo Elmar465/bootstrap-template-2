@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: #2C3E50;
+}
+header .boxes {
+    width: 80%;
+    margin: auto;
+}
+header .boxes .logo {
+    float: left;
+    
+}
+header .boxes .menu{
+    float: right;
+    text-transform: capitalize;
+    
+}
+header .boxes .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 17px;
+    display: block;
+}
+header .menu ul li a{
+    color: #fff;
+    padding: 25px 20px;
+    display: block;
+    text-decoration: none;
+}
+header .menu ul li {
+    float: left;
+    list-style: none;
+}
+main {
+    background-color: #1abc9c;
+    height: 550px;
+    width: 100%;
+    
+}
+main .img {
+    width: 15%;
+    margin-left: 42.5%;
+}
+main .text-box {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin: 30px;
+}
+main .line {
+    width: 20%;
+    margin-left: 40%;
+}
+main .info{
+    text-align: center;
+    margin: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+main .prt {
+    margin: 60px;
+    text-align: center;
+    color: #2C3E50;
+    text-transform: capitalize;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+main .prthr {
+    width: 20%;
+    margin-left: 40%;
+}
+main .images{
+    margin-left: 10%;
+}
+main .images .cab{
+    margin: 10px;
+    border-radius: 10px 16px;
+}
+main .images .cake {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px 16px;
+}
+main .images .circ {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px 16px;
+}
+main .images .game {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px 16px;
+}
+main .images .safe {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px 16px;
+    flex-wrap: wrap;
+}
+main .images .sub {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px 16px;
+    flex-wrap: wrap;
+}
+
+main .about {
+    text-align: center;
+    margin:auto;
+    background-color: #1abc9c;
+    height: 450px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;   
+}
+main .about .lead{
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: block;
+    border: 3px solid none;
+    width: 380px;
+    height: 1px;
+    margin-left: 30%;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+main .about .plus {
+    margin-right: 25%;
+    height: 1px;
+    float: right;
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: block;
+    border: 1px solid none;
+    width: 370px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+main .about .abthr {
+    width: 20%;
+    margin-left: 40%;
+}
+main .tex-button .btn {
+    margin: 10%;
+    margin-left: 45%;
+    line-height: 1.5;
+    border: 0.125rem solid white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    width: 8%;
+    display: flex;
+    height: 50px;
+    color: white;
+    vertical-align: middle;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .contact {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2rem;
+    margin: 10px;
+    color: #2C3E50;
+}
+main .contact .cnthr {
+    margin: 20px;
+    width: 20%;
+    margin-left: 40%;
+}
+main .text-inputs .frst {
+    width: 50%;
+    font-family: inherit;
+    margin: 30px;
+    margin-left: 20%;
+    display: block;
+    line-height: 20px;
+    font-weight: 400;
+    list-style: none;
+    border-color: red;
+    border:1px solid none;
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+}
+
+/* footer {
+    clear: both;
+    background-color: #2C3E50;
+    width: 100%;
+    height: 200px;
+} */
+/* footer {
+    margin: auto;
+}
+footer {
+    background-color: #2C3E50;
+    height: 100px;
+} */
